@@ -17,13 +17,14 @@ int _getline(char **line);
 char *get_location(char *command);
 char *read_command(int *);
 char **split_command(char *, int *);
-char **_getenv(info_t char *info)
+char **_get_env( char *var)
 
 void handler(int);
 int shell_env(char **);
 int shell_exit(char **);
 int shell_cd(char **);
 int shell_cd(char **);
+list_s *_get_env_value(char *variable)
 
 int _strlen(char *);
 int _strcmp(char *, char *);
