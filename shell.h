@@ -134,5 +134,36 @@ int str_com(char *, char *);
 char *stw_Iso(const char *, const char *);
 char *str_conc(char *, char *);
 
+/* atoi.c - 100% */
+int Iso(info_t *);
+int d_islem(char, char *);
+int isalpha(int);
+int _atoi(char *);
+
+/* builtin.c - 100% */
+int myexit(info_t *);
+int _mycd(info_t *);
+int myhelp(info_t *);
+
+/* builtin1.c - 100% */
+int myhistory_Iso(info_t *);
+int _myalias(info_t *);
+int unset_alias_Iso(info_t *info, char *str);
+int set_alias_maati(info_t *info, char *str);
+int print_alias(list_t *node);
+
+/* environ.c  - 100% */
+char *getenv_Iso(info_t *, const char *);
+int myenv_Iso(info_t *);
+int mysetenv_Iso(info_t *info);
+int _myunsetenv(info_t *);
+int populate_env_list(info_t *);
+
+/* errors1.c - 100% */
+int erratoi_Iso(char *);
+void print_error(info_t *, char *);
+int print_d(int, int);
+char *convert_number(long int, int, int);
+void remove_comments(char *);
 
 #endif

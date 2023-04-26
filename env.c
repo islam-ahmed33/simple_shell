@@ -1,9 +1,9 @@
 #include "shell.h"
 
 /**
- * _getenv - Gets an env variable.
- *@info: Structure containing potential arguments.
- * 
+ * *_get_env - Gets an env variable.
+ * @var: Structure containing potential arguments.
+ *
  * Return: NULL.
  */
 
