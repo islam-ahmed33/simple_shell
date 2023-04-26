@@ -17,6 +17,7 @@ int _getline(char **line);
 char *get_location(char *command);
 char *read_command(int *);
 char **split_command(char *, int *);
+char **_getenv(info_t char *info)
 
 void handler(int);
 int shell_env(char **);
