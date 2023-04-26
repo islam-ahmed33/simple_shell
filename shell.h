@@ -17,7 +17,8 @@ int _getline(char **line);
 char *get_location(char *command);
 char *read_command(int *);
 char **split_command(char *, int *);
-char **_get_env( char *var)
+char **_get_env( char *var);
+ssize_t _getline(char **line);
 
 void handler(int);
 int shell_env(char **);
